@@ -1,7 +1,7 @@
 # Data_Analysis
 
 ### Sports (Football) Data Analyze and Visualization
-- Height and weight are converted to meters and kg respectively, Alias used in 'Skill Moves' attribute to make it more readable, players are grouped by their posiitons into defender, midfielder or forward
+- Height and weight are converted to meters and kg respectively, Alias used in 'Skill Moves' attribute to make it more readable, players are grouped into defender, midfielder or forward according to their positions (E.g. CDM (central defender midfielder) ==> midfielder)
 - Average height and weight by position groups are visualized on scatter plot
 - Jersey numbers are investigated with horizontal bar graph to see their preferences by each position group
 - Sum of player salaries of teams are sorted and divided into position groups along with the average salary line
