@@ -11,8 +11,9 @@
 - Top 10 earning players by position are found (Table calculation is used on index to filter top 10 values)
 - Players with top release clause are sorted within age bins (5 year intervals) and their market values are underlined
 
-### E-commerce Analytics  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13oqEnVJSmPkopm5kMOfuygSqoBv1iDbZ?usp=sharing)
+### E-Commerce Analytics  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13oqEnVJSmPkopm5kMOfuygSqoBv1iDbZ?usp=sharing)
 - EDA and preprocessing: E-commerce dataset will be analyzed and processed for next steps.
+- Cohort and Retention Analysis: Conduct cohort analysis and find out monthly retention rates.
 - Recency, Frequency, Monetary (RFM): Customers of an online retailer will be classified into clusters based on transactions over a year.
 - Customer Lifetime Value (CLTV): Find out expected transactions, revenues from customers and their lifetime values to the retailer.
 - Time-series analysis: Forecasting revenue for next month.
