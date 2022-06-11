@@ -17,3 +17,9 @@
 - Recency, Frequency, Monetary (RFM): Customers of an online retailer will be classified into clusters based on transactions over a year.
 - Customer Lifetime Value (CLTV): Find out expected transactions, revenues from customers and their lifetime values to the retailer.
 - Time-series analysis: Forecasting revenue for next month.
+
+### Sales Time-series Forecasting  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/149vX62kSWqNCoJ_I5LTcmCXaY7vIQErj?usp=sharing)
+- EDA and Pre-processing: Sales dataset is analyzed and processed for next steps. Stationarity of the series is checked with ADF and KPSS tests.
+- Classical Time-series models: ACF and PACF graphs of the series are investigated. ARIMA(2,0,3), Auto-ARIMA and Holt-Winters models are implemented on the series and their performances are compared vs test set.
+- Machine Learning and Feature Engineering on Time-series: Impact of features such as store information, holidays etc. are analyzed. Random forest regression model with various set of features is implemented then its' performance is compared with classical-time series models and the test set.
+- In conclusion, ARIMA outperforms other models. Even though feature engineering helps to improve performance in random forest regression, this model has still higher error compared to classical time-series models.
